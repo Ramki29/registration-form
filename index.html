@@ -1,0 +1,87 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>registration form</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form>
+		<section class="form-sec">
+			<div class="form-container">
+				<fieldset>
+					<legend>REGISTRATION</legend>
+					<div class="form-row">
+						<div class="form-col">
+							<label for="first-name">First Name:</label>
+							<input type="text" id="first-name">
+							<label for="last-name">Last Name:</label>
+							<input type="text" id="last-name">
+						</div>	
+						<div class="gender">
+							<label>Gender:</label>
+							<input type="radio" name="gender" id="gender">
+							<label for="gender">Male</label>
+							<input type="radio" name="gender" id="gender">
+							<label for="gender">Female</label>
+							<input type="radio" name="gender" id="gender">
+							<label for="gender">Others</label>
+						</div>	
+						<div class="dob">
+							<label for="dob">Date of Birth:</label>
+							<input type="date" name="dob" id="dob">
+						</div>
+						<div class="number">
+							<label for="phone-number">Mobile Number:</label>
+							<input type="tel" name="phone-number" id="phone-number" placeholder="91-98765-43210"  required>
+						</div>
+						<div class="mail">
+							<label for="email-id">Email:</label>
+							<input type="email" name="email-id" id="email-id">
+						</div>
+						<div class="address">
+							<label for="address">Address:</label><br>
+							<textarea name="address" id="address" cols="40" rows="7"></textarea>
+						</div>
+						 <div class="aadhar">
+							<label for="aadhar-no">Aadhaar:</label>
+							<input type="number" name="aadhar-no" id="aadhar-no" placeholder="8765-4321-8765-4321">
+						</div>
+						<div class="course">
+							<label for="course">Course:</label>
+							<input type="text" name="course" id="course" placeholder="Select">
+						</div>
+						<div class="degree">
+							<label class="deg" for="quals">Qualification:</label>
+							<select>
+								<option value="ug">UG</option>
+								<option value="pg">PG</option>
+							</select>
+							<label class="deg1" for="degree">Degree & Dept:</label>
+							<input type="text" id="course-degree" name="degree" placeholder="BE CSE">
+						</div>
+						<div class="upload">
+							<label for="file">Upload Resume:</label>
+							<input type="file" name="file" id="file" >
+						</div>
+						<div class="box">
+							<input type="checkbox" name="check1" id="check1" >
+							<label for="check1">I accept all teams & conditions.</label><br>
+							<input type="checkbox" name="check2" id="check2" >
+							<label for="check2">I hereby declare that all statements made in this application are true.</label>
+						</div>
+						<div class="button">
+							<button>Submit</button><button>Reset</button>
+						</div>
+					</div>	
+				</fieldset>	
+			</div>
+		</section>
+	</form>	
+</body>
+</html>	
+		
+			
+					
